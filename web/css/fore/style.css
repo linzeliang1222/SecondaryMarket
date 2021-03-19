@@ -1,0 +1,775 @@
+body {
+    font-size: 16px;
+    color: #000000;
+    background-color: #eaeaea;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    background-color: #f2f2f2;
+}
+
+nav a {
+    color: #5f5f5f;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+nav .logo {
+    font-size: 22px;
+    font-weight: 500;
+    color: #b0b0b0;
+}
+
+nav .logo:hover {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+nav span {
+    color: #423c37;
+    padding: 0 5px;
+}
+
+nav .lt {
+    float: left;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+nav .gt {
+    float: right;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav .gt a {
+    margin-left: 6px;
+}
+
+nav .gt .list {
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+nav .gt .list:hover {
+    background-color: #ffffff;
+}
+
+nav .gt .list span {
+    font-size: 16px;
+}
+
+nav .gt .list:hover a {
+    color: #000000;
+}
+
+nav .gt .list ul {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav .gt .list:hover ul {
+    display: block;
+    z-index: 999;
+}
+
+nav .gt .list ul li {
+    width: 120px;
+    line-height: 50px;
+}
+
+nav .gt .list ul a {
+    color: #000000;
+    display: block;
+}
+
+nav .gt .list span {
+    cursor: default;
+    color: #5f5f5f;
+}
+
+nav .gt .list:hover span {
+    color: #ff6700;
+}
+
+nav .gt .list a:hover {
+    color: #ff6700;
+}
+
+nav .gt .in:hover {
+    color: #ff7417;
+}
+
+nav .lt form {
+    float: right;
+    margin-left: 15px;
+    width: 256px;
+}
+
+nav .lt .sousuo {
+    float: left;
+    position: absolute;
+    top: 9px;
+    background-color: #ffffff;
+    height: 34px;
+    width: 200px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-color: #6c757d;
+    color: #FFFFFF;
+    outline: none;
+    padding-left: 4px;
+    font-size: 16px;
+}
+
+nav .lt .sousuo-btn {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    float: right;
+    height: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+div.sort table {
+    margin-top: 20px;
+}
+
+div.sort td {
+    background-color: #e9ecef;
+    width: 98px;
+    max-width: 98px;
+    height: 20px;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+}
+
+div.sort tr td a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+div.sort tr td:hover a {
+    color: #ff6700;
+}
+
+div.sort tr input {
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+}
+
+article .container {
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+article .bg-daohan {
+    background-color: #f2f2f2;
+}
+
+article .daohan-font a {
+    color: #000000;
+}
+
+article .daohan-font a:hover {
+    text-decoration: none;
+    color: #ff6700;
+}
+
+article .active a {
+    color: white;
+    text-decoration: none;
+}
+
+article .daohan {
+    float: left;
+    width: 200px;
+}
+
+article .right {
+    float: right;
+    width: 900px;
+}
+
+article .right .products .productUnit {
+    float: left;
+    margin: 20px 10px;
+    width: 200px;
+    height: 290px;
+    border: 4px solid transparent;
+    background-color: #f2f2f2;
+}
+
+.productUnit img {
+    width: 192px;
+    height: 200px;
+    outline: none !important;
+}
+
+.productUnit img:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+article .right .productUnit:hover {
+    border: 4px solid #afaaaa;
+    cursor: pointer;
+}
+
+#backTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#backTop span {
+    font-size: 24px;
+    color: #35cdae;
+}
+
+#backTop:hover span {
+    color: #2c9781;
+}
+
+footer {
+    width: 100%;
+    background-color: #a3a3a3;
+    height: 80px;
+    color: #555555;
+}
+
+div.imgAndInfo {
+    display: inline-block;
+    width: 850px;
+}
+
+div.imgAndInfo .imgInImgAndInfo {
+    float: left;
+}
+
+div.imgAndInfo .imgInImgAndInfo img {
+    height: 350px;
+    width: 350px;
+}
+
+div.imgAndInfo .imgInImgAndInfo img:hover {
+    outline: none !important;
+}
+
+div.new-title {
+    float: right;
+    width: 250px;
+    display: inline-block;
+}
+
+div.new-product {
+    display: inline-block;
+    float: right;
+    width: 250px;
+    height: 104px;
+    margin: 3px 0;
+    border: 1px solid #c2c2c2;
+}
+
+div.new-product a img {
+    width: 100px;
+    height: 100px;
+}
+
+div.new-product-right {
+    float: right;
+    width: 146px;
+    height: 100px;
+}
+
+div.new-product-title {
+    height: 75px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+div.new-product-price {
+    height: 25px;
+    float: right;
+    color: red;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+div.productDetail {
+    margin-top: 25px;
+    border: 1px solid #e9ecef;
+    width: 850px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+div.detailTitle {
+    padding: 10px;
+}
+
+div.productParamter {
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+div.productParamterList {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+div.productParamterList span {
+    display: block;
+    width: 220px;
+    float: left;
+    padding: 8px 0px;
+    color: #666666;
+    margin: 0 10px;
+}
+
+div.productDetailImagesPart img {
+    display: block;
+    width: 790px;
+    margin: 10px auto;
+}
+
+div.infoInImgAndInfo {
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+div.infoInImgAndInfo div {
+    display: block;
+    height: 40px;
+}
+
+span.productTitle {
+    display: block;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px 5px 10px;
+}
+
+span.productOriginalPrice {
+    display: inline-block;
+    height: 30px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+span.productPromotePrice {
+    display: inline-block;
+    height: 30px;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span.productAuthor {
+    display: inline-block;
+    height: 30px;
+}
+
+span.productCreateTime {
+    display: inline-block;
+    height: 30px;
+}
+
+div.descriptionDiv {
+    margin-left: 30px;
+}
+
+div.buyButton {
+    margin: 0 !important;
+    display: block;
+    height: 110px !important;
+    line-height: 110px;
+}
+
+div.buyButton a {
+    margin: 0 40px;
+}
+
+div.settings {
+    min-height: 570px;
+}
+
+div.settingselect {
+    display: inline-block;
+    width: 260px;
+    float: left;
+}
+
+div.settingselect ol {
+    background-color: #bfbfbf;
+    width: 260px;
+}
+
+div.settingselect ol li {
+    width: 260px;
+    height: 50px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+div.settingselect ol li:hover {
+    cursor: default;
+}
+
+div.baseinfo td.card {
+    margin: 10px 5px;
+    width: 200px;
+    font-weight: 600;
+}
+
+div.bg-setting {
+    float: right;
+    width: 850px;
+    background-color: #f6f6f6;
+    padding-left: 20px;
+    padding-top: 50px;
+    height: 400px;
+}
+
+div.bg-setting td {
+    padding: 10px 6px;
+    text-align: center;
+}
+
+div.boughtDiv {
+    width: 100%;
+    margin: 10px auto;
+}
+
+div.orderType div {
+    float: left;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+div.orderType a {
+    border-right: 1px solid #e8e8e8;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+div.orderType a:hover {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+div.orderType div.selectedOrderType {
+    border-bottom-color: #ff6700;
+}
+
+div.orderType div.selectedOrderType a {
+    color: #ff6700;
+}
+
+div.orderTypeLastOne {
+    overflow: hidden;
+    float: none !important;
+    border-bottom: 2px solid #E8E8E8;
+    height: 38px;
+}
+
+a.noRightborder {
+    border-right-width: 0px !important;
+}
+
+table.orderListTitleTable {
+    border: 1px solid #E8E8E8;
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #F5F5F5;
+    text-align: center;
+    font-size: 12px;
+}
+
+table.orderListTitleTable td {
+    padding: 12px 0px;
+}
+
+div.boughtDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+table.orderListItemTable {
+    border: 2px solid #ECECEC;
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 12px;
+}
+
+table.orderListItemTable td {
+    padding: 8px 10px;
+}
+
+tr.orderListItemFirstTR {
+    background-color: #F1F1F1;
+}
+
+div.orderItemWangWangGif {
+    display: inline-block;
+    width: 67px;
+    height: 22px;
+    background-image: url(https://how2j.cn/tmall/img/site/wangwang.gif);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: -0px -0px;
+    position: relative;
+    top: 0px;
+    left: 2px;
+}
+
+td.orderItemDeleteTD {
+    text-align: right;
+}
+
+span.orderListItemDelete {
+    display: inline-block;
+    margin: 0px 10px;
+    color: #999999;
+    font-size: 16px;
+}
+
+div.orderListItemProductLinkOutDiv {
+    position: relative;
+    height: 80px;
+}
+
+div.orderListItemProductLinkInnerDiv {
+    position: absolute;
+    bottom: 0px;
+}
+
+div.orderListItemProductOriginalPrice {
+    color: #999999;
+    font-size: 14px;
+}
+
+div.orderListItemProductPrice {
+    color: #3C3C3C;
+    font-size: 14px;
+}
+
+td.orderListItemNumberTD {
+    text-align: center;
+}
+
+td.orderItemOrderInfoPartTD {
+    border: solid 1px #ECECEC;
+}
+
+span.orderListItemNumber {
+    color: #3C3C3C;
+}
+
+td.orderListItemProductRealPriceTD {
+    text-align: center;
+}
+
+div.orderListItemProductRealPrice {
+    color: #3C3C3C;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.orderListItemPriceWithTransport {
+    color: #6C6C6C;
+    font-size: 12px;
+}
+
+td.orderListItemButtonTD {
+    text-align: center;
+}
+
+button.orderListItemReview {
+    border: 1px solid #DCDCDC;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #3C3C3C;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+button.orderListItemReview:hover {
+    border-color: #C40000;
+    color: #C40000;
+}
+
+button.orderListItemConfirm {
+    background-color: #66B6FF;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 6px 12px;
+}
+
+button.orderListItemConfirm:hover {
+    background-color: #118ADB;
+}
+
+a {
+    color: #999;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #ff6700;
+}
+
+a.simple-introduce {
+    font-size: 14px;
+    color: black;
+    display: inline-block;
+    padding: 1px 4px;
+}
+
+a.simple-introduce:hover {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+div.page {
+    text-align: center;
+}
+
+li.disabled a, li.active a {
+    cursor: no-drop;
+}
+
+div.buyInformation {
+    height: 500px;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+div.productInfo {
+    width: 410px;
+    height: 500px;
+    float: left;
+    background-color: #e6f5f1;
+}
+
+div.addressInfo {
+    width: 700px;
+    height: 500px;
+    float: right;
+}
+
+div.productLink img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+div.productLink div {
+    margin-top: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 230px;
+    height: 100px;
+    float: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    padding: 5px;
+}
+
+div.productLink div a {
+    color: gray;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+div.productLink div a:hover {
+    color: #ec6b1a;
+}
+
+div.productInfo table {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 358px;
+}
+
+div.productInfo table tr {
+    height: 90px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.productInfo table td {
+    text-align: center;
+    width: 150px;
+}
+
+div.addressInfo table {
+    margin-left: 90px;
+}
+
+div.addressInfo table tr {
+    height: 70px;
+}
+
+div.addressInfo table td {
+    width: 200px;
+}
+
+div.addressInfo table td button {
+    width: 62px;
+    padding: 4px;
+    height: 62px;
+    display: inline-block;
+    margin-top: 288px;
+    position: absolute;
+    top: 250px;
+    margin-left: 35px;
+}
+
+a.productName:hover {
+    color: #ff6700 !important;
+}
